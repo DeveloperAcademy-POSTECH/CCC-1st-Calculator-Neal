@@ -49,37 +49,14 @@ class ViewController: UIViewController {
 extension ViewController {
     
     @IBAction func didNumberButtonPressed(_ sender: UIButton) {
-        var appended: String? = ""
-        switch sender {
-        case oneButton:
-            appended = "1"
-        case twoButton:
-            appended = "2"
-        case threeButton:
-            appended = "3"
-        case fourButton:
-            appended = "4"
-        case fiveButton:
-            appended = "5"
-        case sixButton:
-            appended = "6"
-        case sevenButton:
-            appended = "7"
-        case eightButton:
-            appended = "8"
-        case nineButton:
-            appended = "9"
-        case zeroButton:
-            appended = "0"
-        default:
-            appended = "0"
-        }
+        var appended: String? = sender.titleLabel?.text
         
         if let inputString = inputString , let appended = appended{
             self.inputString! += appended
         } else {
             self.inputString = appended
         }
+    
         textLabel.text = inputString
     }
     
