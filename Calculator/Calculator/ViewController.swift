@@ -45,9 +45,10 @@ class ViewController: UIViewController {
 
 }
 
+
 extension ViewController {
     
-    @IBAction func didOneButtonPressed(_ sender: UIButton) {
+    @IBAction func didNumberButtonPressed(_ sender: UIButton) {
         var appended: String? = ""
         switch sender {
         case oneButton:
