@@ -13,6 +13,7 @@
 		766F5EF42840469C00B936E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766F5EF22840469C00B936E5 /* Main.storyboard */; };
 		766F5EF62840469E00B936E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766F5EF52840469E00B936E5 /* Assets.xcassets */; };
 		766F5EF92840469E00B936E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766F5EF72840469E00B936E5 /* LaunchScreen.storyboard */; };
+		766F5F02284337EE00B936E5 /* Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F5F01284337EE00B936E5 /* Calculation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		766F5EF52840469E00B936E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		766F5EF82840469E00B936E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		766F5EFA2840469E00B936E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		766F5F01284337EE00B936E5 /* Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				766F5EEC2840469C00B936E5 /* AppDelegate.swift */,
 				766F5EEE2840469C00B936E5 /* SceneDelegate.swift */,
 				766F5EF02840469C00B936E5 /* ViewController.swift */,
+				766F5F01284337EE00B936E5 /* Calculation.swift */,
 				766F5EF22840469C00B936E5 /* Main.storyboard */,
 				766F5EF52840469E00B936E5 /* Assets.xcassets */,
 				766F5EF72840469E00B936E5 /* LaunchScreen.storyboard */,
@@ -162,6 +165,7 @@
 				766F5EF12840469C00B936E5 /* ViewController.swift in Sources */,
 				766F5EED2840469C00B936E5 /* AppDelegate.swift in Sources */,
 				766F5EEF2840469C00B936E5 /* SceneDelegate.swift in Sources */,
+				766F5F02284337EE00B936E5 /* Calculation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
