@@ -25,6 +25,9 @@ class Calculation {
         }
         if operatorArray.count == 2 {
             let calculatedResult = valuesCalculation()
+            if operatorArray.first == "=" {
+                allClear()
+            }
             if calculatedResult == Double(Int(calculatedResult)) {
                 return String(Int(calculatedResult))
             }
